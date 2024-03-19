@@ -23,10 +23,14 @@
     <string name="suppress_fullscreen_intent_title">Bloquear eventos em tela cheia</string>
     <string name="suppress_fullscreen_intent_summary">Impedir que eventos em tela cheia como chamadas recebidas apareçam</string>
     <string name="stay_awake_title">Permanecer ativo</string>
+    <string name="stay_awake_summary">Mantenha a tela ativa durante o jogo</string>
     <string name="lock_gesture_title">Bloquear gestos</string>
     <string name="auto_brightness_disabled_title">Desativar brilho automático</string>
+    <string name="auto_brightness_disabled_summary">Mantenha o brilho estável durante o jogo</string>
     <string name="three_screenshot_disabled_title">Desativar deslize para captura de tela</string>
+    <string name="three_screenshot_disabled_summary">Desativar temporariamente o gesto de deslizar para capturar a tela durante o jogo</string>
     <string name="adb_disabled_title">Desativar depuração USB</string>
+    <string name="adb_disabled_summary">Desabilitar temporariamente a depuração USB ADB durante o jogo</string>
     <string name="gamespace_menu_opacity_title">Nível de opacidade do menu de opções</string>
     <!-- Notification Mode -->
     <string name="notification_mode_title">Estilo das notificações</string>
@@ -41,10 +45,14 @@
     <string name="ringer_mode_normal">Normal</string>
     <string name="ringer_mode_no_change">Não mudar</string>
     <!-- Game picker -->
-    <string name="game_list_title">Biblioteca</string>
-    <string name="game_list_add_title">Adicionar</string>
+    <string name="game_list_preferences_title">Opções de adesão à biblioteca</string>
+    <string name="desc_game_library">Adicione ou remova aplicativos considerados jogos que você deseja configurar.</string>
+    <string name="game_list_title">Biblioteca de jogos</string>
+    <string name="game_list_summary">Gerencie a biblioteca de jogos para configurar a experiência por jogo</string>
+    <string name="game_list_library_title">Biblioteca</string>
+    <string name="game_list_add_title">Adicionar jogo</string>
     <string name="app_selector_label">Escolha seu jogo</string>
-    <string name="app_search_title">Pesquisa</string>
+    <string name="app_search_title">Procurar</string>
     <string name="game_remove_message">Tem certeza de que deseja remover %1$s da sua lista de jogos?</string>
     <!-- Configure game -->
     <string name="per_app_title">Configurar jogo</string>
