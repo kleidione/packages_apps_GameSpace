@@ -66,13 +66,14 @@
 
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="gamespace_suppress_fullscreen_intent"
-            android:summary="@string/suppress_fullscreen_intent_summary"
-            android:title="@string/suppress_fullscreen_intent_title" />
+            android:title="@string/suppress_fullscreen_intent_title"
+            android:summary="@string/suppress_fullscreen_intent_summary" />
 
         <SwitchPreferenceCompat
             android:defaultValue="false"
             android:key="gamespace_stay_awake"
-            android:title="@string/stay_awake_title" />
+            android:title="@string/stay_awake_title"
+            android:summary="@string/stay_awake_summary" />
 
         <SwitchPreferenceCompat
             android:defaultValue="false"
@@ -82,17 +83,20 @@
         <SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="gamespace_auto_brightness_disabled"
-            android:title="@string/auto_brightness_disabled_title" />
+            android:title="@string/auto_brightness_disabled_title"
+            android:summary="@string/auto_brightness_disabled_summary" />
 
         <SwitchPreferenceCompat
             android:defaultValue="false"
             android:key="gamespace_tfgesture_disabled"
-            android:title="@string/three_screenshot_disabled_title" />
+            android:title="@string/three_screenshot_disabled_title"
+            android:summary="@string/three_screenshot_disabled_summary" />
 
         <SwitchPreferenceCompat
             android:defaultValue="false"
             android:key="gamespace_adb_disabled"
-            android:title="@string/adb_disabled_title" />
+            android:title="@string/adb_disabled_title"
+            android:summary="@string/adb_disabled_summary" />
 
         <com.crdroid.settings.preferences.CustomSeekBarPreference
             android:key="gamespace_menu_opacity"
